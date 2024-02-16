@@ -104,10 +104,8 @@ export default function Home() {
                   </button>
                   {cid && (
                     <>
-                      <Image
+                      <img
                         src={`https://open-example.mypinata.cloud/ipfs/${cid}`}
-                        width={200}
-                        height={200}
                         alt="testing"
                         crossOrigin="anonymous"
                       />
